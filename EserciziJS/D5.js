@@ -159,10 +159,26 @@ while (i < numericArray.length && numericArray[i] !== 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 
-const charactersArray = ["g", "n", "u", "z", "d"];
+/* const charactersArray = ["g", "n", "u", "z", "d"];
+const alfabeto = "abcdefghilmnopqrstuvz";
+const positionsArray = []
 
-/*
-const alfabetoNumero = [];
+for (let i = 0; i < charactersArray.length; i++) {
+  const lettere = charactersArray[i];
+  const index = alfabeto.indexOf(lettere);
+
+  switch (index) {
+    case -1:
+      positionsArray.push(null);
+    default:
+      positionsArray.push(index + 1)
+  }
+}
+
+console.log(positionsArray) */
+
+
+/* OPPURE METODO PIù LUNGO
 
 for (let i = 0; i < charactersArray.length; i++) {
   const alfabetoIndex = charactersArray[i];
